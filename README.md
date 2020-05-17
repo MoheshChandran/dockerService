@@ -1,18 +1,33 @@
-[![CircleCI](https://circleci.com/gh/noahgift/udacity-devops-microservices.svg?style=svg&circle-token=644aca8c4c94ca89efb97a97d78a4025468b67cc)](https://circleci.com/gh/noahgift/udacity-devops-microservices)
+# myrepo
+[![CircleCI](https://circleci.com/gh/noahgift/myrepo.svg?style=svg)](https://circleci.com/gh/noahgift/myrepo)
 
-# udacity-devops-microservices
+This is an example repo of a how to create a Data Science focused Python project.
+There is a screencast on this project setup here:
 
-Udacity devops course on microservices
+[![Data Science Build Project](http://img.youtube.com/vi/xYX7n5bZw-w/0.jpg)](http://www.youtube.com/watch?v=xYX7n5bZw-w)
 
-## Proposed Kubernetes Example Steps
+A few things to do with this project:
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask scikit-learn app in Container
-* Run via kubectl
-* Configure cluster and Deploy
-* Loadtest and verify auto-scale
+* install software: ```make install```
+* test code: ```make test```
+* lint code: ```make lint```
+* run commandline tool:  
 
-## Boston Housing Dataset Pickled model Colab
+```bash
+./cli.py --name john 
+john-apple
+```
 
-https://github.com/noahgift/boston_housing_pickle
+* run jupyter notebook:
+
+```
+jupyter notebook notebook.ipynb
+```
+
+* test jupyter notebook:
+
+```
+python -m pytest --nbval notebook.ipynb
+```
+
+## Further Information on this topic can be found here:  https://github.com/noahgift/functional_intro_to_python
